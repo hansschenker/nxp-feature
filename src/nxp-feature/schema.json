@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "CreateAngularFeature",
+    "title": "create Angular Feature",
+    "type":"string",
+    "description": "create Angular Feature with your provided feature name",
+    "properties": {
+        "name": {
+            "type":"string",
+            "x-prompt": "give a feature name"
+        }
+    }
+}
